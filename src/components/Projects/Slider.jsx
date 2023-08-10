@@ -6,24 +6,29 @@ import { styled } from 'styled-components';
 
 let data = [
   {
-      img : "https://res.cloudinary.com/ghazni/image/upload/v1661324124/Yt-portfolio/ui5_mnvdaw.png",
-      disc : "Lorem ipsum dolor sit amet consectetur adipisicing elit.Eveniet iure rerum obcaecati et laborum earum!"
+    img : require("./portfolio.PNG"),
+    disc : "This is my portfolio website which I have created using ReactJs and CSS styled-components.",
+    link : ""
   },
   {
-      img : "https://res.cloudinary.com/ghazni/image/upload/v1661324074/Yt-portfolio/ui4_jku3ol.png",
-      disc : "Lorem ipsum dolor sit amet consectetur adipisicing elit.Eveniet iure rerum obcaecati et laborum earum!"
+    img : require("./travel.PNG"),
+    disc : "This is a travel management website created using AngularJs, NodeJs and MongoDB.",
+    link : "https://github.com/nimeshthakur0/Travel-Planneer"
   },
   {
-      img : "https://res.cloudinary.com/ghazni/image/upload/v1661323981/Yt-portfolio/ui2_wtollo.png",
-      disc : "Lorem ipsum dolor sit amet consectetur adipisicing elit.Eveniet iure rerum obcaecati et laborum earum!"
+      img : require("./quotes.PNG"),
+      disc : "This is a website which generates quotes for you to keep you going and is created using ReactJs.",
+      link : "https://github.com/nimeshthakur0/Random-Quotes-Generator"
   },
   {
-      img : "https://res.cloudinary.com/ghazni/image/upload/v1661323980/Yt-portfolio/ui3_akynn4.png",
-      disc : "Lorem ipsum dolor sit amet consectetur adipisicing elit.Eveniet iure rerum obcaecati et laborum earum!"
+    img : require("./blockpay.PNG"),
+    disc : "This is a design that I created for the app called Blockpay using Figma.",
+    link : "https://www.figma.com/file/Cw6jYicYqJoUkifVRjANGX/BlockPay?type=design&node-id=0%3A1&mode=design&t=TAFaWNWFrhI2McCV-1"
   },
   {
-      img : "https://res.cloudinary.com/ghazni/image/upload/v1661323979/Yt-portfolio/ui1_n3uiaz.png",
-      disc : "Lorem ipsum dolor sit amet consectetur adipisicing elit.Eveniet iure rerum obcaecati et laborum earum!"
+    img : require("./markdown.PNG"),
+    disc : "This is markdown previewer website which lets you see the output of your HTML code in real time as you type.",
+    link : "https://github.com/nimeshthakur0/Markdown-Previewer-using-React"
   }
 ];
 

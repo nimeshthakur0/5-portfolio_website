@@ -36,8 +36,8 @@ const Footer = () => {
             <div className="profiles">
                 <Slide direction='left'><h1>Check my profiles</h1></Slide>
                 <div className="icons">
-                <Zoom><span><a href='#'><AiFillGithub/></a></span></Zoom>
-                <Zoom><span><a href='#'><AiFillLinkedin/></a></span></Zoom>
+                <Zoom><span><a href='https://github.com/nimeshthakur0' target="_blank"><AiFillGithub/></a></span></Zoom>
+                <Zoom><span><a href='https://www.linkedin.com/in/nimesh-thakur-4b73b0200/' target="_blank"><AiFillLinkedin/></a></span></Zoom>
                 </div>
             </div>
             <Fade>

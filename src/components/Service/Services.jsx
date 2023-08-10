@@ -1,7 +1,7 @@
 import React from 'react'
-import { MdDesignServices } from "react-icons/md";
-import { FiCodesandbox } from "react-icons/fi";
-import { CgWebsite } from "react-icons/cg";
+import { SiCplusplus } from "react-icons/si";
+import { FaReact } from "react-icons/fa";
+import { FaPython } from "react-icons/fa";
 import { styled } from 'styled-components';
 import Card from './Card';
 import { Slide } from 'react-awesome-reveal';
@@ -10,18 +10,18 @@ const Services = () => {
   return (
     <Container id = "service">
         <Slide direction='down'>
-            <h4>My <span className="green">services</span></h4>
+            <h4>My <span className="green">skills</span></h4>
             <h1>What I Do</h1>
         </Slide>
         <Cards>
             <Slide direction='left'>
-                <Card Icon = {MdDesignServices} title = {"ui/ux designer"} disc = {`lorem ipsum`} />
+                <Card Icon = {SiCplusplus} title = {"DSA"} disc = {``} />
             </Slide>
             <Slide direction='up'>
-                <Card Icon = {FiCodesandbox} title = {"graphic designer"} disc = {`lorem ipsum`} />
+                <Card Icon = {FaReact} title = {"Web Development"} disc = {``} />
             </Slide>
             <Slide direction='right'>
-                <Card Icon = {CgWebsite} title = {"web designer"} disc = {`lorem ipsum`} />
+                <Card Icon = {FaPython} title = {"Machine Learning"} disc = {``} />
             </Slide>    
         </Cards>
     </Container>

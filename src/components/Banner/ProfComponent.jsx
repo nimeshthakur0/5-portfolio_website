@@ -1,9 +1,10 @@
-import React from 'react'
+import React ,{ useRef } from 'react'
 import styled from "styled-components"
 import {SiGmail} from "react-icons/si"
 import {SiLinkedin} from "react-icons/si"
 import {SiGithub} from "react-icons/si"
 import { Slide } from 'react-awesome-reveal'
+import profile from './profile.jpg'
 
 const ProfComponent = () => {
   return (
@@ -13,21 +14,22 @@ const ProfComponent = () => {
                 <h4>Hello <span className='green'>I'am</span></h4>
                 <h1 className='green'>Nimesh Thakur</h1>
                 <h3>Software Engineer</h3>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam officia vitae molestiae saepe, blanditiis aliquam cum quisquam nobis corrupti illo.</p>
+                <p>I am passionate about exploring the world of technology and creating solutions to real-world problems.</p>
                 <button>Let's talk</button>
                 <Social>
                     <p>Check out my</p>
                     <div className='social-icons'>
-                        <span><a href = "#"><SiGmail/></a></span>
-                        <span><a href = "#"><SiLinkedin/></a></span>
-                        <span><a href = "#"><SiGithub/></a></span>
+                        <span><a href = "mailto:nimeshthakur0@gmail.com"><SiGmail/></a></span>
+                        <span><a href = "https://www.linkedin.com/in/nimesh-thakur-4b73b0200/" target="_blank"><SiLinkedin/></a></span>
+                        <span><a href = "https://github.com/nimeshthakur0" target="_blank"><SiGithub/></a></span>
                     </div>
                 </Social>
             </Texts>
         </Slide>
         <Slide direction='right'>
             <Profile>
-                <img src = "https://cdn-icons-png.flaticon.com/512/5969/5969474.png" alt = "profile" />
+                <img src = {profile} alt = "profile" />
+                {/* https://cdn-icons-png.flaticon.com/512/5969/5969474.png */}
             </Profile>
         </Slide>
     </Container>
