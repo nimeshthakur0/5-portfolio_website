@@ -66,8 +66,6 @@ Provide examples of how this project can be used. For instance, navigating throu
 
 ![Portfolio Section](images/portfolio.png)
 
-Add more screenshots as needed.
-
 ## Deployment
 
 To build the application for production, run:
