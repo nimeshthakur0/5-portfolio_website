@@ -50,7 +50,7 @@ npm install
 npm start
 ```
 
-5. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+5. Open [http://localhost:5173](http://localhost:5173) to view it in your browser.
 
 ## Usage
 
